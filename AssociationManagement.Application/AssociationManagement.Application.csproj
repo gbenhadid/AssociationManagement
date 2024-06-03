@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Helpers\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="13.0.1" />
+		<PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.4" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.1.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AssociationManagement.Core\AssociationManagement.Core.csproj" />
+		<ProjectReference Include="..\AssociationManagement.DataAccess\AssociationManagement.DataAccess.csproj" />
+		<ProjectReference Include="..\AssociationManagement.Tools\AssociationManagement.Tools.csproj" />
+	</ItemGroup>
+
+</Project>
