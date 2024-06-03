@@ -31,7 +31,7 @@ Provide a backend supporting:
 
 ## Technologies
 
-- **Framework**: ASP.NET Core
+- **Framework**: ASP.NET Core 8
 - **Database**: SQL Server
 - **Authentication**: JWT
 - **API**: RESTful API design.
